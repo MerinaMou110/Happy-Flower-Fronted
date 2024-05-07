@@ -1,0 +1,237 @@
+/* footer{
+    padding: 50px;
+   color: white;
+    background: #232F3E;
+} */
+.und a {
+    text-decoration: none; /* Remove text decoration */
+    color: white; /* Optionally set color for links */
+    
+}
+.und{
+    list-style: none;
+    padding-left: 0; /* Remove default left padding */
+}
+/* .nav{
+    /* background-color: #DBBFB3; */
+    /* background-color: #232F3E; */
+    /* a{
+        color: white;
+    }
+    
+} */ 
+    
+/* .search-container {
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* Custom CSS to increase profile icon font size */
+#profileBotton i {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 5px;
+    width: 200px;
+  }
+  
+  .search-button {
+    background-color:#170482;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+
+
+  .categories-container {
+    display: flex;
+    color: black;
+    /* justify-content: space-around; */
+    gap:25px
+  }
+  
+#noData{
+    display: none;
+}
+
+.nodata{
+    display: none;
+}
+
+
+#spinner{
+    display: none;
+}
+
+.flw-card {
+    width: calc(25% - 15px); /* Calculate 25% width with margin */
+    background-color: white;
+    /* box-shadow: 4px 4px 8px gray; */
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 350px;
+    height: 450px;
+    
+  }
+
+  /* .flowers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the start of the container */
+    /* margin-top: 20px; /* Add some margin at the top for spacing */
+    /* padding: 20px;
+  } */ 
+
+  .doc-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+/* #flw-details-container{
+    display: flex;
+} */
+.ct{
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+
+
+.bt{
+    background-color: #B6E9FF;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.details-button {
+    background-color: #170482; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding */
+    cursor: pointer; /* Cursor on hover */
+     transition: background-color 0.3s ease;/* Smooth transition for background color */
+}
+.details-button:hover {
+    background-color: #232F3E; /* Darker blue background color on hover */
+}
+.details-button a {
+    color: inherit; /* Inherit text color */
+    text-decoration: none; /* Remove underline */
+}
+.flw-details-container{
+    display: flex;
+    justify-content: space-around; 
+    padding: 30px;
+    gap: 50px;
+    width: 75%;
+    margin: auto; 
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.registration-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #170482; 
+}
+
+.btn-primary:hover {
+    background-color: #232F3E;;
+    /* border-color: #007bff; */
+}
+
+.mt-3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+   /* Custom CSS styles for the form */
+   .user-details-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-label {
+    font-weight: bold;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+#editUserBtn, #saveUserBtn {
+    margin-top: 15px;
+}
+
+
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
+  .btn-success {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+  
